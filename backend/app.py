@@ -29,8 +29,8 @@ indices = pd.Series(movies.index, index=movies['title'].str.lower())
 
 # TMDB API
 TMDB_API_KEY = os.getenv("TMDB_API_KEY")
-TMDB_SEARCH_URL=https://api.themoviedb.org/3/search/movie
-TMDB_IMG_BASE=https://image.tmdb.org/t/p/w500
+TMDB_SEARCH_URL="https://api.themoviedb.org/3/search/movie"
+TMDB_IMG_BASE="https://image.tmdb.org/t/p/w500"
 
 def fetch_poster(title):
     try:
