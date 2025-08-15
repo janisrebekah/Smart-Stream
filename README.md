@@ -38,25 +38,25 @@ It leverages **Flask**, **scikit-learn**, and **pandas** for the backend, and **
 
 ### Clone the repository
 
-git clone https://github.com/your-username/SmartStream.git
-cd SmartStream
+- git clone https://github.com/your-username/SmartStream.git
+- cd SmartStream
 
 ## Backend Setup
 
-cd backend
-pip install -r requirements.txt
-python app.py
+- cd backend
+- pip install -r requirements.txt
+- python app.py
 
 ## Frontend Setup
 
-cd frontend
-npm install
-npm run dev
+- cd frontend
+- npm install
+- npm run dev
 
 
 ## 🌐 Environment Variables
 
 Create a .env file inside the frontend/ folder:
 
-VITE_API_BASE_URL=https://smart-stream-qxmy.onrender.com/
-VITE_TMDB_API_KEY=your_tmdb_api_key
+-VITE_API_BASE_URL=https://smart-stream-qxmy.onrender.com/
+-VITE_TMDB_API_KEY=your_tmdb_api_key
