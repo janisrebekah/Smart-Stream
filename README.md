@@ -38,7 +38,7 @@ It leverages **Flask**, **scikit-learn**, and **pandas** for the backend, and **
 
 ### Clone the repository
 
-- git clone https://github.com/your-username/SmartStream.git
+- git clone https://github.com/janisrebekah/Smart-Stream.git
 - cd SmartStream
 
 ## Backend Setup
