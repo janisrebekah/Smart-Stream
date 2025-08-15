@@ -58,5 +58,5 @@ It leverages **Flask**, **scikit-learn**, and **pandas** for the backend, and **
 
 Create a .env file inside the frontend/ folder:
 
--VITE_API_BASE_URL=https://smart-stream-qxmy.onrender.com/
--VITE_TMDB_API_KEY=your_tmdb_api_key
+- VITE_API_BASE_URL=https://smart-stream-qxmy.onrender.com/
+- VITE_TMDB_API_KEY=your_tmdb_api_key
