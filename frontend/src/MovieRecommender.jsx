@@ -20,8 +20,10 @@ const MovieRecommender = () => {
 
     try {
       const response = await axios.get(
-        `http://localhost:5000/recommend?title=${encodeURIComponent(title)}`
-      );
+    `${import.meta.env.VITE_API_BASE_URL}/recommend?title=${encodeURIComponent(title)}`
+);
+
+     
       setRecommendations(response.data.recommendations);
     } catch (error) {
       console.error("Error fetching recommendations:", error);
